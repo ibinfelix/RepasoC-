@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Depurar",
+            "type": "cppdbg",
+            "request": "launch",
+            "cwd": ".",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "MIMode": "gdb",
+            "externalConsole": false,
+            "preLaunchTask": "Compile Cpp"
+        }
+    ]
+}

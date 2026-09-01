@@ -10,6 +10,14 @@
             "MIMode": "gdb",
             "externalConsole": false,
             "preLaunchTask": "Compile Cpp"
+        },
+        {
+            "name": "lldb",
+            "type": "lldb",
+            "request": "launch",
+            "cwd": ".",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "preLaunchTask": "Compile Cpp"
         }
     ]
 }

@@ -12,6 +12,16 @@
             "preLaunchTask": "Compile Cpp"
         },
         {
+            "name": "Depurar WSL",
+            "type": "cppdbg",
+            "request": "launch",
+            "cwd": ".",
+            "program": "${fileBasenameNoExtension}",
+            "MIMode": "gdb",
+            "externalConsole": false,
+            "preLaunchTask": "Compile Cpp"
+        },
+        {
             "name": "lldb",
             "type": "lldb",
             "request": "launch",
